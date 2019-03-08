@@ -11,12 +11,12 @@
 		html {
 		  scroll-behavior: smooth;
 		}
-		body{background-image:url(ab.jpg);}
+		
 		.header {
 		background-color:#1263e5;
 		  padding: -10px;
 		  text-align: left;
-		  color:white;
+
 		  }
 		  h1{
 		  	  font-family:algerian;
@@ -41,7 +41,25 @@
 		  padding: 14px 16px;
 		  text-decoration: none;
 		}
-
+		.pa{
+			color: white;
+			font-size: 50px;
+			padding:50px;
+		}
+		.home1
+		{
+			background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url('a.jpg');
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+		.product1
+		{
+			background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url('b.jpg');
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
 		li a:hover:not(.active) {
 		  background-color: #111;
 		}
@@ -56,9 +74,7 @@
 </head>
 <body>
 	<div class="header sticky">
-		<h1 style=""><a class="boxhead" href="home.html"><img src="C:\Users\Himanshu\Desktop\webtech\New folder\image\logo.png" alt="logo" style="width:10%;height:25%"></a>
-		<img src="C:\Users\Himanshu\Desktop\webtech\New folder\image\wp.png" alt="logo" style="width:2%;float:right;padding:">
-		</h1>	
+		<h1 style=""><a class="boxhead" href="home.html"><img src='logo.png' alt="logo" style="width:10%;height:25%"></a></h1> 
 		<ul>
 		  <li><a class="active" href="#home">Home</a></li>
 		  <li><a href="#products">Products</a></li>
@@ -69,13 +85,12 @@
 	<br>
 	<br>
 	<br>
-	<br>
-	
-	 <div id="home">
-		<img src="C:\Users\Himanshu\Desktop\webtech\New folder\image\a.jpg" width="100%">
+	 <div class="home1" id="home">
+		<p class="pa">
+		wertyui</p>
 	 </div>
-	  <div id="products">
-			<img src="C:\Users\Himanshu\Desktop\webtech\New folder\image\b.jpg" width="100%">
+	  <div id="products" class="product1">
+			<!--<img src="b.jpg" width="100%">-->
 	  </div>
 		<script>
 			window.onscroll = function() {myFunction()};
