@@ -281,16 +281,39 @@ figure.effect-bubba figcaption::after {
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	bottom: 30px;
+	bottom: 50px;
 	left: 30px;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
+figure {
+	position: relative;
+    overflow: hidden;
+    margin: 10px 100px;
+    background: #726FB9;
+    text-align: center;
+    cursor: pointer;	
+}
 
+ mobile-item figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+    width:100%;
+}
+mobile-item figure figcaption, mobile-item figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
+	border-top: 2px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
