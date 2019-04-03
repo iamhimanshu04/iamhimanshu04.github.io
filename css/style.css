@@ -4,6 +4,7 @@
 body {
   margin: 0px;
     font-family: "Open Sans", Sans-serif;
+    
 }
 
 h1,
@@ -159,7 +160,7 @@ section {
 }
 
 header {
-    background-image:linear-gradient(rgba(0, 10, 10, 10), rgba(0, 10, 100, 100)),url("WQ.jpg");
+    background-image:linear-gradient(rgba(0,10,10,10), rgba(0,10,100,100)), url("qw.jpg");
     background-repeat: repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -281,7 +282,7 @@ figure.effect-bubba figcaption::after {
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	bottom: 50px;
+	bottom:50px;
 	left: 30px;
 	content: '';
 	opacity: 0;
